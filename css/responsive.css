@@ -1,0 +1,245 @@
+/* extra small device start */
+@media (min-width: 320px) and (max-width: 575px){
+    /* menu bar css start */
+    nav .fa{
+        color: #fff;
+        padding: 10px;
+    }
+    .navbar ul{
+        padding-top: 15px;
+        text-align: center;
+    }
+    /* menu bar css end */
+    /* banner part start */
+    #banner ul li{
+        display: none;
+    }
+    #banner .fa, .fas{
+        display: none;
+    }
+    #banner .content{
+        text-align: center;
+        width: auto;
+    }
+    #banner p{
+        text-align: center;
+        width: 100%;
+    }
+    #banner h3::after{
+        right: 150px;
+    }
+    /* banner part end */
+    /* about part start */
+    .heading p{
+        width: auto;
+        margin: 0 auto !important;
+        padding: 15px;
+    }
+    #about .text p{
+        width: 100%;
+        text-align: center;
+    }
+    #about .img{
+        text-align: center;
+        width: 100%;
+    }
+    /* about part end */
+    #pricing .item{
+        margin-bottom: 15px;
+    }
+      /* footer part start */
+    footer .logo{
+        text-align: center;
+    }
+    .copyWrite p{
+        text-align: center;
+        width: 100%;
+    }
+    /* footer part end */
+    }
+    /* extra small device end */
+    /* small device start */
+@media (min-width: 576px) and (max-width: 767px){
+    /* menu bar css start */
+    nav .fa{
+        color: #fff;
+        padding: 10px;
+    }
+    .navbar ul{
+        padding-top: 15px;
+        text-align: center;
+    }
+    /* menu bar css end */
+    /* banner part start */
+    #banner ul li{
+        display: none;
+    }
+    #banner .fa, .fas{
+        display: none;
+    }
+    #banner .content{
+        text-align: center;
+        width: auto;
+    }
+    #banner p{
+        text-align: center;
+        width: 100%;
+    } 
+    #banner h3::after{
+        right: 42px;
+    }
+    /* banner part end */
+    /* about part start */
+    .heading p{
+        width: auto;
+        margin: 0 auto !important;
+        padding: 15px;
+    }
+    #about .text p{
+        width: 100%;
+        text-align: center;
+    }
+    #about .img{
+        text-align: center;
+        width: 100%;
+    }
+    /* about part end */
+    /* pricing part start */
+    #pricing .item{
+        margin-bottom: 15px;
+    }
+    /* pricing part end */
+    /* footer part start */
+    footer{
+        text-align: center;
+        margin: auto 100px;
+    }
+    .copyWrite p{
+        text-align: center;
+        margin: auto 100px;
+    }
+    /* footer part end */
+    }
+    /* small device end */
+     /* medium device start */
+@media (min-width: 768px) and (max-width: 991px){
+    /* menu bar css start */
+    nav .fa{
+        color: #fff;
+        padding: 10px;
+    }
+    .navbar ul{
+        padding-top: 15px;
+        text-align: center;
+    }
+    /* menu bar css end */
+    /* banner part start */
+    #banner ul li{
+        text-align: right;
+    }
+    #banner .content{
+        text-align: center;
+        width: auto;
+    }
+    #banner p{
+        text-align: center;
+        width: 100%;
+    } 
+    #banner h3::after{
+        right: 42px;
+    }
+    /* banner part end */
+    /* about part start */
+    .heading p{
+        width: auto;
+        margin: 0 auto !important;
+        padding: 15px;
+    }
+    #about .text p{
+        width: 100%;
+        text-align: center;
+    }
+    #about .img{
+        text-align: center;
+        width: 100%;
+    }
+    /* about part end */
+    /* pricing part start */
+    #pricing .item{
+        margin-bottom: 15px;
+    }
+    /* pricing part end */
+    /* footer part start */
+    footer{
+        text-align: center;
+        margin: auto 150px;
+    }
+    .copyWrite p{
+        text-align: center;
+        margin: auto 150px;
+    }
+    /* footer part end */
+    }
+    /* large device end */
+    @media (min-width: 992px) and (max-width: 1199px){
+        /* menu bar css start */
+        nav .fa{
+            color: #fff;
+            padding: 10px;
+        }
+        .navbar ul{
+            padding-top: 15px;
+            text-align: center;
+        }
+        .navbar-expand-lg .navbar-nav{
+            width: 100%;
+        }
+        /* menu bar css end */
+        /* banner part start */
+        #banner ul li{
+            text-align: right;
+        }
+        #banner .content{
+            text-align: center;
+            width: auto;
+        }
+        #banner p{
+            text-align: center;
+            width: 100%;
+        } 
+        #banner h3::after {
+            right: 339px;
+        }
+        /* banner part end */
+        /* about part start */
+        .heading p{
+            width: auto;
+            margin: 0 auto !important;
+            padding: 15px;
+        }
+        #about .text p{
+            width: 100%;
+            text-align: center;
+        }
+        #about .img{
+            text-align: center;
+            width: 100%;
+        }
+        /* about part end */
+        /* pricing part start */
+        #pricing .item{
+            margin-bottom: 15px;
+        }
+        /* pricing part end */
+        /* footer part start */
+        footer{
+            text-align: center;
+            margin: auto 150px;
+        }
+        .copyWrite p{
+            text-align: center;
+            margin: auto 150px;
+        }
+        /* footer part end */
+        }
+        /* large device end */
